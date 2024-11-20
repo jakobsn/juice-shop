@@ -10,7 +10,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html'
   key: restfulXssChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -57,7 +56,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Vulnerable_Dependency_Management_Cheat_Sheet.html'
   key: fileWriteChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -144,7 +142,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Denial_of_Service_Cheat_Sheet.html'
   key: rceChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -188,7 +185,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html'
   key: usernameXssChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -203,7 +199,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html'
   key: persistedXssUserChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -440,7 +435,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html'
   key: httpHeaderXssChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -627,7 +621,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Denial_of_Service_Cheat_Sheet.html'
   key: noSqlCommandChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -642,7 +635,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html'
   key: noSqlOrdersChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -751,7 +743,6 @@
   tutorial:
     order: 5
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -842,7 +833,6 @@
   mitigationUrl: ~
   key: sstiChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -882,7 +872,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html'
   key: persistedXssFeedbackChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -908,7 +897,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Denial_of_Service_Cheat_Sheet.html'
   key: rceOccupyChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -979,7 +967,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html'
   key: videoXssChallenge
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
@@ -1039,7 +1026,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html'
   key: xxeFileDisclosureChallenge
   disabledEnv:
-  - Docker
   - Heroku
   - Gitpod
 -
@@ -1054,7 +1040,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html'
   key: xxeDosChallenge
   disabledEnv:
-  - Docker
   - Heroku
   - Gitpod
 -
@@ -1210,7 +1195,6 @@
   description: 'Gain read access to an arbitrary local file on the web server.'
   key: 'lfrChallenge'
   disabledEnv:
-    - Docker
     - Heroku
     - Gitpod
 -
